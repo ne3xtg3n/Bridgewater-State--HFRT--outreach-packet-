@@ -257,15 +257,6 @@ Partner on resonance modeling, student-led experimentation, and open publication
 Co-author future studies on resonant coherence fields
 
 
-Support Offered:
-
-Open-source documentation (this white paper)
-
-All firmware, 3D models, BOMs, and references
-
-Willingness to conduct an in-person or remote seminar/demo
-
-
 
 ---
 
@@ -283,13 +274,7 @@ Enclosure	IP65 Resin Composite	3D printed or off-shelf
 USB-C Output Regulator	5V, 12V, 24V DC Out	Any buck converter (adjustable)
 SD Card Module	SPI-connected	Optional for logging
 
-
-
 ---
-
-
-
-
 ---
 
 12. References & Supporting Discoveries
@@ -467,8 +452,11 @@ Reality Pack Photos
 <img width="2048" height="2048" alt="1000015799" src="https://github.com/user-attachments/assets/57e4ec15-678d-43d1-a2f0-e5b5b604bf03" />
 
 <img width="2048" height="2048" alt="1000015798" src="https://github.com/user-attachments/assets/cd572595-4f21-4215-8e88-3ab586c4fde5" />
+
 <img width="1024" height="1536" alt="1000015783" src="https://github.com/user-attachments/assets/1cfe05c1-ff89-4e38-a68c-28e75d1eb1a4" />
+
 <img width="2048" height="2048" alt="1000015806" src="https://github.com/user-attachments/assets/6ec6bce8-3568-46a1-8c61-f3881b4518c8" />
+
 ![1000015813](https://github.com/user-attachments/assets/a6f87699-4f60-4158-be26-e4baabfd5a35)
 
 
