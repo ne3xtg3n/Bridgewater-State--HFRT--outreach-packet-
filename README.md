@@ -312,7 +312,7 @@ SD Card Module	SPI-connected	Optional for logging
 
 
 ---
-<img width="1536" height="1024" alt="1000016524" src="https://github.com/user-attachments/assets/f5945da4-3307-4b6c-a3e7-59733bf2e98c" />
+
 
 <img width="1536" height="1024" alt="1000016531" src="https://github.com/user-attachments/assets/17c7e969-0124-4862-9ae4-32b89a7b3077" />
 
