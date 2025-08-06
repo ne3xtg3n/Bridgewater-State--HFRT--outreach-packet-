@@ -5,7 +5,7 @@
 
 ---
 
-#High‑Frequency Resonance Theory (HFRT)
+# High‑Frequency Resonance Theory (HFRT)
 
 Comprehensive Outreach White Paper
 
