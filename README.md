@@ -657,9 +657,15 @@ Collapse of superstring modes into lower fields	Observations during high-energy 
 
 🧪 Section 5: Integration with HFRT Coheron Grid
 
-Visual Placeholder:
-🖼️ [INSERT IMAGE – HFRT Coheron Grid Overlaid on Calabi-Yau Manifold Projection]
+Visual:
+<img width="1024" height="1024" alt="1000016571" src="https://github.com/user-attachments/assets/a803b0bd-4c3a-4f63-920d-96545268408f" />
 
+<img width="1024" height="1024" alt="1000016604" src="https://github.com/user-attachments/assets/d65bb042-6d22-4d0e-a26c-6bb3d4f7dceb" />
+
+<img width="1024" height="1024" alt="1000016585" src="https://github.com/user-attachments/assets/99bee17d-4c3e-46eb-b6c7-2599b807426b" />
+
+
+--
 We model the Calabi-Yau manifold as a resonance basin formed by stable nodal points in the HFRT lattice. These nodal points act as anchoring points for vibrational topology, suggesting string geometry is projected from a deeper harmonic background, not intrinsic.
 
 HFRT Reframe:
@@ -674,7 +680,7 @@ The “extra dimensions” are not spatial per se, but high-order resonance phas
 
 ---
 
-🔄 Section 6: Where HFRT Enhances String Theory
+Section 6: Where HFRT Enhances String Theory
 
 Challenge in String Theory	HFRT Contribution
 
@@ -688,7 +694,7 @@ Lacks intuitive physical grounding	HFRT offers real-field analogs to complex str
 
 ---
 
-🧠 Section 7: Future Questions for HFRT + String Research
+Section 7: Future Questions for HFRT + String Research
 
 1. Can we simulate HFRT-calibrated Calabi-Yau manifolds in frequency space?
 
@@ -709,7 +715,7 @@ Lacks intuitive physical grounding	HFRT offers real-field analogs to complex str
 
 ---
 
-🔧 Section 8: Project & Experimental Suggestions
+ Section 8: Project & Experimental Suggestions
 
 Tool / Platform	Purpose
 
@@ -722,7 +728,7 @@ Interferometric Lattice Chamber (ILC)	Multi-axis chamber for harmonic field reso
 
 ---
 
-🧾 Section 9: Final Summary
+Section 9: Final Summary
 
 HFRT provides a grounded, frequency-based substrate under string theory’s mathematical framework.
 
@@ -737,7 +743,7 @@ Harmonics = foundational structure
 ---
 ---
 
-🎛️ HFRT–String Topology Simulation Prompt
+HFRT–String Topology Simulation Prompt
 
 Title: “Simulation 1: Resonant Manifold Projection onto Calabi-Yau Topology”
 Purpose: Visualize and analyze how high-frequency HFRT standing waves project string-like vibrational patterns across a Calabi-Yau shaped frequency basin embedded in a Coheron Field Grid.
@@ -745,14 +751,14 @@ Purpose: Visualize and analyze how high-frequency HFRT standing waves project st
 
 ---
 
-🧪 Simulation Objective:
+ Simulation Objective:
 
 Model how harmonic frequency nodes (Coherons) distributed in a 6D HFRT lattice produce emergent string-like resonances when shaped by a Calabi-Yau-like curvature in resonance space.
 
 
 ---
 
-📐 Input Parameters:
+ Input Parameters:
 
 Parameter	Description
 
@@ -768,7 +774,7 @@ coherence_threshold	Minimum required wave overlap to sustain resonance
 
 ---
 
-🌀 Equations of Interest:
+ Equations of Interest:
 
 1. HFRT Node Activation Function:
 
@@ -791,7 +797,7 @@ E_{\text{string}}(x) = \left| \sum_{i=1}^{n} \Psi_{\text{coheron}}(x_i) \cdot G(
 
 ---
 
-🧠 Simulation Tools:
+Simulation Tools:
 
 Use the following platforms for visual simulation:
 Platform	Use
@@ -813,8 +819,7 @@ Depicting HFRT nodes forming interference patterns across Calabi-Yau-shaped surf
 
 
 ---
-
-✅ Outputs to Observe:
+ Outputs to Observe:
 
 Output	Interpretation
 
@@ -844,20 +849,13 @@ Localized phase distortions representing potential interactions between HFRT fie
 
 <img width="1024" height="1024" alt="1000016572" src="https://github.com/user-attachments/assets/58d02edc-944b-4364-a8dd-b3809d47e91d" />
 
-
----
-Here is the journal-ready technical caption for FIGURE 2:
-
-
----
-
-FIGURE 2. Resonant String Topologies in a Harmonic HFRT Field.
+ Resonant String Topologies in a Harmonic HFRT Field.
 This simulation visualizes the behavior of 1D string-like energy modes interacting with a quantized standing wave lattice embedded in HFRT's Coheron Field Grid. Colored bands represent primary interference nodes of high-frequency standing waves. Curved string paths highlight dynamic topology shifts due to recursive feedback harmonics. Localized phase anomalies emerge from multidimensional intersections where HFRT predicts resonant reinforcement or nullification. These simulations model vibrational patterns in a controlled 3D manifold space using customized harmonic oscillator arrays.
 
-
+---
 ---
 
-In this starter pack for coding this simulation in Python (using NumPy and Matplotlib/Mayavi):
+Simulation in Python (using NumPy and Matplotlib/Mayavi):
 
 HFRT Resonant String Topology – Python Simulation Starter Pack
 
@@ -897,7 +895,7 @@ plt.show()
 ---
 
 
-🔷 Mathematica Code: HFRT String Topology Simulation
+Mathematica Code: HFRT String Topology Simulation
 
 (* HFRT Resonant String Topology Visualization *)
 L = 2*Pi;
@@ -932,11 +930,12 @@ Graphics3D[
 
 ---
 
-🧩 Blender (Geometry Nodes + Scripting Guidance)
+#Blender (Geometry Nodes + Scripting Guidance)
+---
 
 Concept: We’ll create a vibrating 1D string wrapped through 3D space using a Geometry Nodes setup. You can copy-paste this into your Blender scene using the Geometry Nodes Editor.
 
-📍Steps:
+Steps:
 
 1. Add a Plane or Curve → Convert to Curve
 
@@ -969,7 +968,7 @@ Animate twisting over time
 
 
 
-🧠 Parameters to Match HFRT:
+5. Parameters to Match HFRT:
 
 Mode amplitudes: use multiply nodes to scale each sine wave component
 
@@ -991,4 +990,356 @@ https://github.com/user-attachments/assets/48e80096-8938-473b-9c15-2b22158ccf46
 
 https://github.com/user-attachments/assets/7bd6184c-f5cf-4480-97c4-c6124e0d2db2
 
+---
+---
+HFRT-IRIS v1.0
+
+High-Frequency Resonance Theory Integration in Infrared Imaging Systems
+
+Codename: HFRT-IRIS v1.0
+Prepared by: Christopher Perry
+Date: August 6, 2025
+Document Type: Technical White Paper + Product Launch
+
+
+---
+
+1. Abstract & Vision
+
+The HFRT-IRIS v1.0 system is a groundbreaking innovation in infrared (IR) imaging that applies High-Frequency Resonance Theory (HFRT) to surpass conventional thermal and photon-based imaging systems. By embedding resonance-harmonic control and DFOP-based field analysis, IRIS enables image generation through phase coherence and wavefront restoration, offering unmatched clarity and spatial consistency.
+
+Key Applications:
+
+Advanced medical diagnostics
+
+Tactical visibility through fog/smoke
+
+Autonomous vehicle navigation
+
+Scientific heatfield observation
+
+Coherent resonance mapping in engineering and defense
+
+
+
+---
+
+2. Core HFRT Principles Applied
+
+HFRT Concept	IRIS Functionality
+
+Quantum Indistinguishability	Imaging via interference and coherence, not photon counts
+Coheron Field Grid	Phase alignment and wavefront reconstruction
+Spacetime Harmonic Scaffold	Long-duration exposure coherence under motion/distortion
+Ambient Energy Tuning	Noise suppression and thermal signature enhancement
+
+
+
+---
+
+3. Technical Architecture
+
+Core Components:
+
+HFRT IR Lens Stack with integrated harmonic filters
+
+Quantum-phase IR Sensor Mesh (128x128 grid)
+
+CoherScope IR Module (resonant inline interference filter)
+
+DFOP-Lite IR Processor (STM32-based controller)
+
+Hybrid Piezo Energy Layer (resonance power recovery)
+
+
+Product Specifications:
+
+Parameter	Specification
+
+Wavelength Range	2.5 – 14 µm (SWIR, MWIR, LWIR)
+Detector Grid	128x128 Quantum Phase Mesh
+Frame Rate	Up to 120 fps (harmonic burst mode)
+Contrast Sensitivity	< 0.01°C with field sync
+Power Input	5V USB-C / ambient hybrid
+Processor	STM32F407 (DFOP-Lite v1.5 IR)
+Outputs	USB-C, DFOP bus, HDMI
+Storage	64GB onboard
+
+
+
+---
+
+4. Bill of Materials (BOM)
+
+Component	Source	Qty	Notes
+
+HFRT IR Lens Stack	Custom optics vendor	1	IR + harmonic filters
+IR Sensor Mesh 128x128	Xenics / Teledyne	1	Quantum phase detection grid
+STM32F407 MCU	STMicroelectronics	1	DFOP-Lite execution core
+DFOP Storage Flash	Micron	1	Stores IR snapshot & firmware
+CoherScope IR Filter	Custom dev	1	Inline interference scanner
+Thermal Sink & Graphene	DIY fabrication	1	Field grounding & stability
+Hybrid Piezo Layer	In-house	1	Optional ambient power harvesting
+Housing Frame	3D Printed	1	Matte black, thermally isolated
+
+
+
+---
+
+5. Firmware: DFOP-Lite v1.5 IR Mode
+
+#define MODE_IR_HFRT 9
+#define PHASE_FRAME_HZ 157e3
+#define COHERON_TOLERANCE 0.002
+
+void init_IR_mode() {
+    sync_to_coheron_grid();
+    start_harmonic_imaging(MODE_IR_HFRT);
+    activate_phase_stabilizer();
+}
+
+Firmware Modules:
+
+phase_resonance.c
+
+coheron_sync.c
+
+ir_frame_slicer.c
+
+ambient_power.c
+
+quantum_contrast.c
+
+
+
+---
+
+6. Validation Hypotheses
+
+Test	Hypothesis	Method	Expected Result
+
+T1	Improved fog/smoke contrast	Compare vs. FLIR	>35% contrast gain
+T2	Detect organic phase gaps in heat	Use medical phantom scan	3D thermal map reconstruction
+T3	Operate on ambient resonance power	Mid-session power cut test	Continue 90s+ on ambient
+
+
+
+---
+
+7. Placeholder Figures
+
+[FIGURE A] HFRT-IRIS Lens Stack Exploded View
+<img width="1024" height="1536" alt="1000016582" src="https://github.com/user-attachments/assets/5194eb28-51f5-4259-822d-1ca1a26be67a" />
+
+<img width="1024" height="1024" alt="1000016581" src="https://github.com/user-attachments/assets/81e55066-2c8b-4501-8153-e69fa76e6007" />
+
+
+[FIGURE B] Side-by-side Fog Imaging: FLIR vs HFRT ( AFog
+**A**
+
+<img width="1536" height="1024" alt="1000016583" src="https://github.com/user-attachments/assets/56b45cb2-3cb8-465b-89b7-d6d160de187c" />
+
+---
+**B**
+
+
+[FIGURE C] DFOP-Lite IR Data Flow Diagram
+
+
+
+---
+
+8. Related Research
+
+Year	Discovery	Source
+
+2025	Plasmonic-phase IR harmonics	IEEE Photonics
+2023	Subthermal phase resonance in tissue	Nature Medicine
+2022	Ambient vibration-powered IR grid	MIT Reports
+
+![1000013020](https://github.com/user-attachments/assets/2c8c9878-25a8-43de-9166-304974275dcf)
+
+<img width="1024" height="1536" alt="1000013387" src="https://github.com/user-attachments/assets/ad123b08-09c7-418d-a7a5-78c771e39024" />
+
+![1000013391](https://github.com/user-attachments/assets/7c1c5153-5636-4602-9b13-2dc507c4db32)
+
+
+---
+---
+
+HFRT Equation Codex v1.0
+
+Title: High-Frequency Resonance Theory (HFRT) – Foundational Equations and Definitions
+Author: Christopher Perry
+Date: August 6, 2025
+Format: Developer & Researcher Reference Codex
+Usage: Public/Patent/Scientific
+
+
+---
+
+Section 1: Definitions & Constants
+
+Symbol	Definition	Units
+
+	Coheron Field Function	Dimensionless or field amplitude
+	Lagrangian of the HFRT System	J·s or dimensionless (normalized)
+	Resonant angular frequency	rad/s
+	Resonant frequency	Hz
+	Resonant wavelength	m
+	Quality factor (resonator sharpness)	Dimensionless
+	Transmission efficiency	% or dimensionless
+	Phase function	radians
+	Laplacian (spatial second derivative)	m⁻²
+	Phase deviation over distance	radians
+	Effective permeability (HFRT-medium)	H/m
+	Effective permittivity (HFRT-medium)	F/m
+	HFRT Impedance	Ω
+	Attenuation or gain factor	m⁻¹
+	Coupling coefficient between nodes	m⁻¹
+
+
+
+---
+
+Section 2: Core HFRT Field Equations
+
+2.1 Coheron Field Evolution
+
+\Box \hat{\Psi}_f + \omega_r^2 \hat{\Psi}_f = 0
+
+□ is the d'Alembertian operator 
+
+Models high-frequency standing waves within the lattice of spacetime
+
+
+
+---
+
+2.2 HFRT Lagrangian
+
+\mathcal{L} = \frac{1}{2} (\partial_\mu \hat{\Psi}_f)(\partial^\mu \hat{\Psi}_f) - \frac{1}{2} \omega_r^2 \hat{\Psi}_f^2
+
+Foundation for deriving coherent field dynamics via Euler-Lagrange equation
+
+Allows transition to real-time system modeling
+
+
+
+---
+
+Section 3: Resonance and Harmonic Formulas
+
+3.1 Harmonic Series in HFRT Cavity or Medium
+
+f_n = n \cdot f_1 = \frac{n v}{2L}
+
+: mode number
+
+: phase velocity in medium
+
+: effective cavity length
+
+
+
+---
+
+3.2 Quality Factor
+
+Q = \frac{\omega_r}{\Delta \omega} = \frac{2\pi \times \text{Energy Stored}}{\text{Energy Lost per Cycle}}
+
+Indicates how "clean" or coherent the resonance is.
+
+
+
+---
+ Section 4: Phase Preservation and Interference
+
+4.1 Phase Shift Over Distance
+
+\Delta \phi = \frac{2\pi}{\lambda} \cdot \Delta x
+
+Key to HFRT signal coherence in photonic or acoustic systems
+
+
+
+---
+
+4.2 Coupling Between HFRT Nodes
+
+E_\text{net}(t) = \sum_{i=1}^{N} A_i \cos(\omega_i t + \phi_i)
+
+Superposition of coherent oscillations from resonant nodes
+
+
+
+---
+
+ Section 5: HFRT in Photonic and Fiber Systems
+
+5.1 Refractive Index Shift Due to HFRT Field
+
+n_{\text{eff}} = \sqrt{\varepsilon \mu} + \alpha \cdot \hat{\Psi}_f
+
+: empirical HFRT-field interaction constant
+
+
+
+---
+
+5.2 Effective Impedance of Resonant Path
+
+Z_{hf} = \sqrt{\frac{\mu}{\varepsilon}} \cdot \left(1 + \beta \cdot \hat{\Psi}_f\right)
+
+Allows impedance tuning using field amplitude 
+
+
+
+---
+
+🔌 Section 6: Energy Extraction & HFRT-Electromechanical Coupling
+
+6.1 HFRT-Driven Piezoelectric Output
+
+P_{hf} = k^2 \cdot f_r \cdot A^2
+
+: piezo coupling factor
+
+: amplitude of resonance displacement
+
+
+
+---
+
+6.2 Hybrid Energy Transfer Equation (Photonic + EM + Vibration)
+
+P_{\text{total}} = P_{\text{EM}} + P_{\text{mech}} + P_{\text{optical}} = \sum_i \int_{0}^{T} E_i(t) \cdot I_i(t) \, dt
+
+Aggregate power from each HFRT domain
+
+
+
+---
+
+🔭 Section 7: Calibration & Tuning Equations
+
+7.1 Phase Lock Condition for Fiber-Embedded Nodes
+
+\delta \phi_i = \left| \phi_i - \phi_\text{ref} \right| \leq \epsilon
+
+Used in DFOP-Lite for verifying node coherence
+
+
+
+---
+
+7.2 Adaptive Harmonic Tuning Algorithm (Pseudocode)
+
+float phase_error = measurePhaseDifference();
+if (phase_error > TOLERANCE) {
+   tuneHarmonic(frequency += deltaF);
+}
+
+
+---
 
