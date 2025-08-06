@@ -1,6 +1,4 @@
-# Bridgewater-State--HFRT--outreach-packet-
-
-Below is  HFRT Outreach White Paper — or Bridgewater State University this is a formal outreach document.
+# Bridgewater-State--HFRT--outreach-packet
 
 ![1000012700](https://github.com/user-attachments/assets/fa88809f-87ed-4e90-966f-0788aa8045f6)
 
