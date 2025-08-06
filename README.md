@@ -423,7 +423,6 @@ Coheron fields overlap in the Ω scaffold grid, enforcing correlations without p
 
 ![1000016567](https://github.com/user-attachments/assets/e58d5878-c8dd-497f-acaf-4219958bf2f2)
 
-<img width="1536" height="1024" alt="1000016524" src="https://github.com/user-attachments/assets/c1fb76f3-e439-48c5-ae9a-f82d25ae77ed" />
 
 ![1000016568](https://github.com/user-attachments/assets/d23f2a68-2fe4-447b-a53f-d4ff44224650)
 
