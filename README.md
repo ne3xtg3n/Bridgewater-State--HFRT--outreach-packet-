@@ -287,17 +287,6 @@ SD Card Module	SPI-connected	Optional for logging
 
 ---
 
-11. Image & Diagram Placeholders
-
-[FIGURE 1: HFRT Coheron Field Schematic]
-
-[FIGURE 2: CoherScope Block Diagram]
-
-[FIGURE 3: Resonant Grid in Particle Simulation]
-
-[FIGURE 4: Reality Pack Cross-Sectional View]
-
-[FIGURE 5: Signal Processing Flowchart]
 
 
 
@@ -324,16 +313,13 @@ SD Card Module	SPI-connected	Optional for logging
 
 ---
 <img width="1536" height="1024" alt="1000016524" src="https://github.com/user-attachments/assets/f5945da4-3307-4b6c-a3e7-59733bf2e98c" />
+
 <img width="1536" height="1024" alt="1000016531" src="https://github.com/user-attachments/assets/17c7e969-0124-4862-9ae4-32b89a7b3077" />
 
 ---
-
-Here is the complete and expanded white paper content you can copy and paste, including all the components you requested: the HFRT Codex 4.0, solved and proposed equations, the three-body problem, our views on the new quantum indistinguishability discovery, unanswered questions, and outreach directives to Bridgewater State University.
-
-
 ---
 
-HFRT Outreach White Paper for Bridgewater State University
+#HFRT Outreach White Paper for Bridgewater State University
 
 Version: v4.0 Codex Edition
 Author: Christopher Perry
