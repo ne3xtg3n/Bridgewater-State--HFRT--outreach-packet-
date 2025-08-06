@@ -2,6 +2,8 @@
 
 Below is  HFRT Outreach White Paper — or Bridgewater State University this is a formal outreach document.
 
+![1000012700](https://github.com/user-attachments/assets/fa88809f-87ed-4e90-966f-0788aa8045f6)
+
 
 ---
 
@@ -20,36 +22,25 @@ Table of Contents
 
 1. Introduction to HFRT
 
-
 2. Scientific Foundations
-
 
 3. Mathematical Framework
 
-
 4. Solved HFRT Equations
-
 
 5. CoherScope System Overview
 
-
 6. Reality Pack: Modular Energy System
-
 
 7. Firmware & Signal Processing
 
-
 8. HFRT’s Predictions and Experimental Validations
-
 
 9. Outreach Purpose & University Collaboration Proposal
 
-
 10. Bill of Materials (Outsourced Components)
 
-
-11. Image & Diagram Placeholders
-
+11. Image & Diagram (simulation)
 
 12. References & Supporting Discoveries
 
