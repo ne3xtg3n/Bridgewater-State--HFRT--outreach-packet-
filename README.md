@@ -996,7 +996,11 @@ Color: assign a blue emission shader to the curve
 
 ---
 
-https://github.com/user-attachments/assets/a1d27c57-aa09-47be-8943-8f435ddde8d4
+
+
+https://github.com/user-attachments/assets/48e80096-8938-473b-9c15-2b22158ccf46
+
+
 
 ---
 
