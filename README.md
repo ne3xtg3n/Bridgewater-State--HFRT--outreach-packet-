@@ -360,7 +360,7 @@ These equations were developed to test the hypothesis that resonance, not substa
 \hat{\Psi}_f = A \cdot e^{i(kx - \omega t)} \cdot \sum_{n=1}^{\infty} \frac{\sin(n\pi x)}{n^2}
 
 Predicts quantized emergence of particles from harmonic peaks.
-
+--
 
 (B) Local Frequency Gravitational Effect:
 
@@ -368,7 +368,7 @@ g(x) = \frac{G \cdot m}{r^2} \cdot \cos(\omega t)
 
 Allows integration with dynamic field lattices.
 
-
+---
 (C) Standing Energy Density:
 
 \mathcal{E}(x, t) = \frac{1}{2} \rho \cdot \omega^2 \cdot A^2 \cdot \sin^2(kx)
