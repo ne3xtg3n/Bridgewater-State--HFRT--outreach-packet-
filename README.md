@@ -1,4 +1,18 @@
 G# Bridgewater-State--HFRT--outreach-packet
+<img width="1536" height="1024" alt="1000016805" src="https://github.com/user-attachments/assets/23455a6e-7eec-40d6-af10-1657faf70bd0" />
+
+
+https://github.com/user-attachments/assets/0e8f7947-d2dc-4bd0-9b32-6097a383d854
+
+
+
+https://github.com/user-attachments/assets/54ca0115-3512-4d30-80f2-ce050de41b0f
+
+
+
+https://github.com/user-attachments/assets/3d997c91-770d-4dfa-b76a-778696f2b02d
+
+
 <img width="1024" height="1024" alt="1000016798" src="https://github.com/user-attachments/assets/bafab2eb-11fd-43a3-885e-f66b5ef79a40" />
 
 ---
