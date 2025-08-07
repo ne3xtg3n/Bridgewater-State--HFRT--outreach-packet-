@@ -671,15 +671,11 @@ Section 7: Future Questions for HFRT + String Research
 
 1. Can we simulate HFRT-calibrated Calabi-Yau manifolds in frequency space?
 
-
 2. Do D-branes have direct analogs in super-resonant HFRT node zones?
-
 
 3. Is the graviton a collapsed frequency envelope rather than a true closed loop?
 
-
 4. Are dualities mathematical artifacts of resonance reflection in higher harmonics?
-
 
 5. Could quantum decoherence be explained as frequency decoherence rather than wavefunction collapse?
 
@@ -825,6 +821,25 @@ Localized phase distortions representing potential interactions between HFRT fie
  Resonant String Topologies in a Harmonic HFRT Field.
 This simulation visualizes the behavior of 1D string-like energy modes interacting with a quantized standing wave lattice embedded in HFRT's Coheron Field Grid. Colored bands represent primary interference nodes of high-frequency standing waves. Curved string paths highlight dynamic topology shifts due to recursive feedback harmonics. Localized phase anomalies emerge from multidimensional intersections where HFRT predicts resonant reinforcement or nullification. These simulations model vibrational patterns in a controlled 3D manifold space using customized harmonic oscillator arrays.
 
+
+Calabi-Yau manifolds: are complex manifolds that are crucial in string theory, particularly for compactification, which involves curling up extra dimensions to match our four-dimensional universe. Mathematicians Eugenio Calabi and Shing-Tung Yau originally created them for other purposes, but in 1985, physicists used them to compactify six extra space dimensions in string theory. Here's a brief overview of Calabi-Yau manifolds: 
+Definition
+
+Generalizations of K3 surfaces in any number of complex dimensions, which is an even number of real dimensions. 
+Properties. Have a Ricci-flat Kähler metric and admit Kähler metrics with vanishing Ricci curvatures. 
+Structure
+Can be disassembled into patches that resemble flat complex space, but can only be joined together by the complex equivalent of rotation. 
+Example
+
+![1000016629](https://github.com/user-attachments/assets/700b60a7-7a11-4198-a05d-fcd3fad8cf6e)
+
+
+![1000016634](https://github.com/user-attachments/assets/ff1858c5-8508-4db5-beea-2b8cf9637c9f)
+
+
+Reference: 
+
+https://www.maths.ox.ac.uk/outreach/oxford-mathematics-alphabet/c-calabi-yau-manifolds#:~:text=Calabi%2DYau%20manifolds%20are%20complex%20manifolds%2C%20that%20is%2C,patches%20which%20look%20like%20flat%20complex%20space.
 ---
 ---
 
@@ -1118,6 +1133,7 @@ T3	Operate on ambient resonance power	Mid-session power cut test	Continue 90s+ o
 
 [FIGURE C] DFOP-Lite IR Data Flow Diagram
 
+<img width="1536" height="1024" alt="1000016584" src="https://github.com/user-attachments/assets/1141a8a1-014f-4763-a8e8-ecd04ef4dd04" />
 
 
 ---
