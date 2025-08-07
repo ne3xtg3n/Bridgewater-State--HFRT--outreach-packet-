@@ -1398,11 +1398,33 @@ Let's break down the deeper meaning of the visual components:
 
 Here is a close-up visualization of a Gravitational Anomaly, as described by HFRT's explanation of resonant reflection behavior.  Section 8: HFRT's Predictions and Experimental Validations, "scientific" view of the interference patterns that could be observed.
 
----
-![1000016652](https://github.com/user-attachments/assets/88184e07-7073-4be9-897c-9b884322ebc7)
+
 
 ---
 <img width="2048" height="2048" alt="1000016652" src="https://github.com/user-attachments/assets/e9bd6c27-b39e-4f54-adaa-d5d1ae387874" />
 
 D-Branes as HFRT Supernodes
 This image visualizes the concept of D-branes as "field resonance concentration zones (supernodes)" within the HFRT Coheron Grid. It provides a visual link between a key element of string theory and the core framework of HFRT.
+
+
+---
+![1000016653](https://github.com/user-attachments/assets/abc98444-8c9c-49e8-99cf-1744ec5b51e1)
+
+This image visualizes the concept of Quantum Indistinguishability as explained by HFRT. It shows how particles that appear separate are, in fact, correlated through overlapping "Coheron
+fields" within the "Omega scaffold grid," creating a single harmonic superposition. This offers a
+new perspective on Bell's inequality and would be a powerful image for your documents.
+
+---![1000016658](https://github.com/user-attachments/assets/557ce23b-87ca-4b81-b16f-f6fbf6a8a6d2)
+
+![1000016656](https://github.com/user-attachments/assets/d097f129-0a77-4a9b-8f4a-7c8c5fa60b66)
+
+---
+
+
+![1000016659](https://github.com/user-attachments/assets/d1d9fe65-d549-4fae-be7b-1134725caf77)
+
+This image visualizes a crucial concept from the HFRT documents: Multi-Dimensional Torsion
+and Curvature. It shows how the underlying HFRT grid can be both curved, representing
+gravity, and twisted, representing a new form of energetic torsion. This is a powerful visual that
+explains how the theory connects these fundamental forces to the geometry of its proposed
+lattic.
