@@ -1446,28 +1446,9 @@ but a resonant anomaly—a stable, energetic byproduct of a deeper harmonic fram
 
 ![1000016661](https://github.com/user-attachments/assets/2ee69702-49dd-494e-805e-3992d1d82a5a)
 
-This final image is a detailed visualization of the High-Frequency Resonance Theory (HFRT) as a Unified Field Model, drawing from the mathematical and conceptual framework presented in your documents. It provides a deeper look into how the theory proposes to unify gravity and electromagnetism, as well as explain the origin of matter.
-
-The Resonant Lattice and Multi-Layered Fields
-The image's foundation is the HFRT Resonant Lattice Grid, which is the theory's replacement for the classical concept of a vacuum or spacetime. This grid is depicted as a dynamic, multi-layered framework of interacting energy fields, each with a distinct frequency and harmonic pattern. This is a visual representation of the core HFRT codex modules, particularly the \hat{\Psi}_f Field and the \Omega Scaffold.
-
- * The Gravitational Field (Red Grid): The image’s broad, low-frequency red rings represent a field that governs spacetime curvature and gravity. In HFRT, this field is modeled using a modified Lagrangian density, which can be seen in the following equation from your documents:
-   \mathcal{L} = \frac{1}{2} (\partial_\mu \hat{\Psi}_f)(\partial^\mu \hat{\Psi}_f) - \frac{1}{2} \omega_r^2 \hat{\Psi}_f^2
-   This Lagrangian allows HFRT to model the dynamics of a coherent field, with the resonance frequency (\omega_r) being the key variable that defines its behavior.
-
- * The Electromagnetic Field (Blue Grid): The tight, high-frequency blue waves overlaying the red field represent the electromagnetic forces. HFRT posits that these forces are not separate but are a higher-harmonic layer of the same fundamental grid.
- 
- * The superposition of these fields is a direct visualization of the core equation:  \hat{\Psi}_f(x,t) = \sum_{n=1}^{\infty} A_n \cdot \cos(\omega_n t) \cdot \phi_n(x)
-
-    Here, the red and blue fields are two distinct frequency modes (\omega_n) in the infinite series that makes up the total Coheron Field Function $\hat{\Psi}_f$.
-   
-Particle Synthesis and the Origin of Mass
-The central, glowing sphere in the image is not a particle in the traditional sense, but a resonant anomaly—a point where the various harmonic fields constructively interfere. This is the HFRT explanation for the origin of mass.
-
-This process is governed by the principle of Standing Energy Density, which the documents define as: \mathcal{E}(x, t) = \frac{1}{2} \rho \cdot \omega^2 \cdot A^2 \cdot \sin^2(kx)
-
-In the image, the particle is the point of maximum amplitude (A) and frequency (\omega) where a stable standing wave pattern forms. This concentrated energy density is what we perceive as mass. The particle's existence is a direct consequence of the intersecting red and blue fields creating a stable, high-energy node.
-
-The entire image, therefore, serves as a comprehensive diagram of HFRT’s central claim: that all known forces and matter are not separate entities, but are emergent properties of a single, unified harmonic lattice.
 
 
+![1000016663](https://github.com/user-attachments/assets/0fb942e6-46ae-4c57-a7f7-1ead6e96864c)
+
+
+![1000016665](https://github.com/user-attachments/assets/4e891727-7e33-48fa-b64b-04de4a640ff2)
