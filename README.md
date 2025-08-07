@@ -641,6 +641,25 @@ Visual:
 --
 We model the Calabi-Yau manifold as a resonance basin formed by stable nodal points in the HFRT lattice. These nodal points act as anchoring points for vibrational topology, suggesting string geometry is projected from a deeper harmonic background, not intrinsic.
 
+Calabi-Yau manifolds: are complex manifolds that are crucial in string theory, particularly for compactification, which involves curling up extra dimensions to match our four-dimensional universe. Mathematicians Eugenio Calabi and Shing-Tung Yau originally created them for other purposes, but in 1985, physicists used them to compactify six extra space dimensions in string theory. Here's a brief overview of Calabi-Yau manifolds: 
+Definition
+
+Generalizations of K3 surfaces in any number of complex dimensions, which is an even number of real dimensions. 
+Properties. Have a Ricci-flat Kähler metric and admit Kähler metrics with vanishing Ricci curvatures. 
+Structure
+Can be disassembled into patches that resemble flat complex space, but can only be joined together by the complex equivalent of rotation. 
+Example
+
+![1000016629](https://github.com/user-attachments/assets/700b60a7-7a11-4198-a05d-fcd3fad8cf6e)
+
+
+![1000016634](https://github.com/user-attachments/assets/ff1858c5-8508-4db5-beea-2b8cf9637c9f)
+
+
+Reference: 
+
+https://www.maths.ox.ac.uk/outreach/oxford-mathematics-alphabet/c-calabi-yau-manifolds#:~:text=Calabi%2DYau%20manifolds%20are%20complex%20manifolds%2C%20that%20is%2C,patches%20which%20look%20like%20flat%20complex%20space.
+
 HFRT Reframe:
 
 Strings are not fundamental.
@@ -822,24 +841,7 @@ Localized phase distortions representing potential interactions between HFRT fie
 This simulation visualizes the behavior of 1D string-like energy modes interacting with a quantized standing wave lattice embedded in HFRT's Coheron Field Grid. Colored bands represent primary interference nodes of high-frequency standing waves. Curved string paths highlight dynamic topology shifts due to recursive feedback harmonics. Localized phase anomalies emerge from multidimensional intersections where HFRT predicts resonant reinforcement or nullification. These simulations model vibrational patterns in a controlled 3D manifold space using customized harmonic oscillator arrays.
 
 
-Calabi-Yau manifolds: are complex manifolds that are crucial in string theory, particularly for compactification, which involves curling up extra dimensions to match our four-dimensional universe. Mathematicians Eugenio Calabi and Shing-Tung Yau originally created them for other purposes, but in 1985, physicists used them to compactify six extra space dimensions in string theory. Here's a brief overview of Calabi-Yau manifolds: 
-Definition
 
-Generalizations of K3 surfaces in any number of complex dimensions, which is an even number of real dimensions. 
-Properties. Have a Ricci-flat Kähler metric and admit Kähler metrics with vanishing Ricci curvatures. 
-Structure
-Can be disassembled into patches that resemble flat complex space, but can only be joined together by the complex equivalent of rotation. 
-Example
-
-![1000016629](https://github.com/user-attachments/assets/700b60a7-7a11-4198-a05d-fcd3fad8cf6e)
-
-
-![1000016634](https://github.com/user-attachments/assets/ff1858c5-8508-4db5-beea-2b8cf9637c9f)
-
-
-Reference: 
-
-https://www.maths.ox.ac.uk/outreach/oxford-mathematics-alphabet/c-calabi-yau-manifolds#:~:text=Calabi%2DYau%20manifolds%20are%20complex%20manifolds%2C%20that%20is%2C,patches%20which%20look%20like%20flat%20complex%20space.
 ---
 ---
 
