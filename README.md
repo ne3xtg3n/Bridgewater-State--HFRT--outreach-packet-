@@ -2,6 +2,7 @@ G# Bridgewater-State--HFRT--outreach-packet
 
 ![1000012700](https://github.com/user-attachments/assets/fa88809f-87ed-4e90-966f-0788aa8045f6)
 
+![1000016635](https://github.com/user-attachments/assets/b95b51cd-3330-4dbc-96b5-b20601dad4db)
 
 ---
 
@@ -631,6 +632,8 @@ Collapse of superstring modes into lower fields	Observations during high-energy 
 Section 5: Integration with HFRT Coheron Grid
 
 Visual:
+![1000016636](https://github.com/user-attachments/assets/df1c39e3-4647-42f7-ae11-5bf679a54e8d)
+
 <img width="1024" height="1024" alt="1000016571" src="https://github.com/user-attachments/assets/a803b0bd-4c3a-4f63-920d-96545268408f" />
 
 <img width="1024" height="1024" alt="1000016604" src="https://github.com/user-attachments/assets/d65bb042-6d22-4d0e-a26c-6bb3d4f7dceb" />
@@ -642,9 +645,11 @@ Visual:
 We model the Calabi-Yau manifold as a resonance basin formed by stable nodal points in the HFRT lattice. These nodal points act as anchoring points for vibrational topology, suggesting string geometry is projected from a deeper harmonic background, not intrinsic.
 
 Calabi-Yau manifolds: are complex manifolds that are crucial in string theory, particularly for compactification, which involves curling up extra dimensions to match our four-dimensional universe. Mathematicians Eugenio Calabi and Shing-Tung Yau originally created them for other purposes, but in 1985, physicists used them to compactify six extra space dimensions in string theory. Here's a brief overview of Calabi-Yau manifolds: 
-Definition
 
-Generalizations of K3 surfaces in any number of complex dimensions, which is an even number of real dimensions. 
+
+![1000016637](https://github.com/user-attachments/assets/8eb371fd-3713-4f52-a872-3f5c03ee64a3)
+
+Definition: Generalizations of K3 surfaces in any number of complex dimensions, which is an even number of real dimensions. 
 Properties. Have a Ricci-flat Kähler metric and admit Kähler metrics with vanishing Ricci curvatures. 
 Structure
 Can be disassembled into patches that resemble flat complex space, but can only be joined together by the complex equivalent of rotation. 
@@ -796,6 +801,8 @@ Python (NumPy + Matplotlib)	Real-time harmonic propagation in grid
 Blender (Geometry Nodes + Shader Math)	3D resonant field visuals
 Unity + C# or Unreal Engine	Interactive real-time field model
 
+![1000016638](https://github.com/user-attachments/assets/63aeb0f2-3a6d-4898-93f0-0332e4b6b9cb)
+
 
 
 ---
@@ -834,6 +841,9 @@ String excitation nodes where curvature and harmonic reinforcement converge
 Cross-dimensional feedback loops that generate recursive resonance along curled or looped string paths
 
 Localized phase distortions representing potential interactions between HFRT fields and quantum strings
+
+![1000016639](https://github.com/user-attachments/assets/e2feca94-1b43-4649-a345-9f7f4e909db5)
+
 
 <img width="1024" height="1024" alt="1000016572" src="https://github.com/user-attachments/assets/58d02edc-944b-4364-a8dd-b3809d47e91d" />
 
@@ -969,6 +979,7 @@ Color: assign a blue emission shader to the curve
 ![1000016573](https://github.com/user-attachments/assets/5a704df4-5ec1-4a31-9ade-7150602e92ff)
 
 ---
+<img width="2048" height="2048" alt="1000016640" src="https://github.com/user-attachments/assets/51141258-154c-459c-a1f7-b35aa6ecbd62" />
 
 
 
@@ -1116,13 +1127,12 @@ T3	Operate on ambient resonance power	Mid-session power cut test	Continue 90s+ o
 
 ---
 
-7. Placeholder Figures
-
-[FIGURE A] HFRT-IRIS Lens Stack Exploded View
+7. [FIGURE A] HFRT-IRIS Lens Stack Exploded View
 <img width="1024" height="1536" alt="1000016582" src="https://github.com/user-attachments/assets/5194eb28-51f5-4259-822d-1ca1a26be67a" />
 
 <img width="1024" height="1024" alt="1000016581" src="https://github.com/user-attachments/assets/81e55066-2c8b-4501-8153-e69fa76e6007" />
 
+<img width="2048" height="2048" alt="1000016641" src="https://github.com/user-attachments/assets/622598e4-0984-4fcf-8e3a-fa8a714e5a80" />
 
 [FIGURE B] Side-by-side Fog Imaging: FLIR vs HFRT ( AFog
 **A**
@@ -1130,13 +1140,15 @@ T3	Operate on ambient resonance power	Mid-session power cut test	Continue 90s+ o
 <img width="1536" height="1024" alt="1000016583" src="https://github.com/user-attachments/assets/56b45cb2-3cb8-465b-89b7-d6d160de187c" />
 
 ---
-**B**
+**B Thermal **
+![1000016642](https://github.com/user-attachments/assets/c4b470fa-af13-4a3e-94da-df804bd7663c)
 
 
 [FIGURE C] DFOP-Lite IR Data Flow Diagram
 
 <img width="1536" height="1024" alt="1000016584" src="https://github.com/user-attachments/assets/1141a8a1-014f-4763-a8e8-ecd04ef4dd04" />
 
+![1000016644](https://github.com/user-attachments/assets/6a5eec10-cff2-4452-b473-815da63d7955)
 
 ---
 
