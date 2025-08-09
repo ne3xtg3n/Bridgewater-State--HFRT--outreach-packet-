@@ -159,9 +159,289 @@ https://github.com/user-attachments/assets/3d997c91-770d-4dfa-b76a-778696f2b02d
 
 ---
 ---
-
+Upon review, I found only one minor spelling error. The rest of the document is flawlessly written and perfectly formatted.
+Here is the corrected version of the document you provided:
 Awesome—let’s lock in a clean, first-principles Lagrangian for your starter system (HFRT-VC1: Piezoelectric Vibration Chamber) and show exactly how it yields testable, falsifiable predictions. I’ll keep this tight but complete so you can drop it straight into your white paper or lab notes.
+HFRT-VC1: A Complete Lagrangian/Hamiltonian Model
+1) Degrees of freedom and parameters
+ * Mechanical generalized coordinate: x (displacement of the proof mass / disc).
+ * Electrical generalized coordinate: q (charge on the piezo electrodes).
+ * Current, voltage: \dot q, V (derived below).
+Lumped parameters:
+ * m: effective mass
+ * k: mechanical stiffness
+ * b: mechanical viscous loss (Rayleigh dissipation)
+ * C_p: clamped capacitance of the piezo
+ * R: electrical load resistance (external or internal leakage)
+ * \theta: electromechanical coupling coefficient (units: C/m or N/V depending on convention—see §6)
+Optional drives:
+ * External force F_{\mathrm{ext}}(t).
+ * External current source i_{\mathrm{ext}}(t) (or a voltage source via standard circuit coupling).
+2) Energy and coupling structure
+ * Mechanical kinetic energy:
+   T_{\mathrm{mech}}=\frac{1}{2}m\dot x^2.
+ * Mechanical potential energy:
+   V_{\mathrm{mech}}=\frac{1}{2}k\,x^2.
+ * Electrical field energy (lumped capacitor):
+   V_{\mathrm{elec}}=\frac{1}{2C_p}q^2.
+ * Bilinear piezo coupling energy (standard linear constitutive reduction):
+   V_{\mathrm{cpl}}=-\,\theta\,x\,q.
+ * Total potential energy:
+   V=V_{\mathrm{mech}}+V_{\mathrm{elec}}+V_{\mathrm{cpl}} =\frac{1}{2}k x^2+\frac{1}{2C_p}q^2-\theta x q.
+ * Total kinetic energy:
+   T=\frac{1}{2}m\dot x^2.
+3) Lagrangian + dissipation
+\boxed{\;\;\mathcal{L}(x,q,\dot x,\dot q)=T-V =\frac{1}{2}m\dot x^2-\frac{1}{2}k x^2-\frac{1}{2C_p}q^2+\theta x q.\;\;}
+ * Rayleigh dissipation (linear losses):
+   \mathcal{D}=\frac{1}{2}b\,\dot x^2+\frac{1}{2}R\,\dot q^2,
+ * External generalized forces:
+   * Mechanical: Q_x=F_{\mathrm{ext}}(t).
+   * Electrical: Q_q=i_{\mathrm{ext}}(t) (current source; for a voltage source use standard circuit constraints).
+4) Euler–Lagrange equations (with dissipation & drives)
+ * For x:
+   \frac{d}{dt}\Big(\frac{\partial \mathcal{L}}{\partial \dot x}\Big) -\frac{\partial \mathcal{L}}{\partial x} +\frac{\partial \mathcal{D}}{\partial \dot x}=Q_x \;\Rightarrow\; m\ddot x+k x-\theta q+b\,\dot x=F_{\mathrm{ext}}(t).
+ * For q (note \dot q=i here):
+   -\frac{\partial \mathcal{L}}{\partial q} +\frac{\partial \mathcal{D}}{\partial \dot q}=Q_q \;\Rightarrow\; \Big(\frac{1}{C_p}q-\theta x\Big)+R\,\dot q=i_{\mathrm{ext}}(t).
+   \boxed{ \begin{aligned} & m\ddot x+b\,\dot x+k x-\theta q=F_{\mathrm{ext}}(t),\\[4pt] & R\,\dot q+\frac{1}{C_p}q-\theta x=i_{\mathrm{ext}}(t). \end{aligned} }
+These are the coupled equations of motion for HFRT-VC1, derived from first principles.
+5) Observable predictions (resonance, anti-resonance, and splitting)
+ * Set b=R=F_{\mathrm{ext}}=i_{\mathrm{ext}}=0 (lossless, open circuit) to examine natural modes. The second equation gives \dot q=0, q=\theta C_p x. Sub into the first:
+   m\ddot x + \big(k - \theta^2 C_p\big)x=0 \Rightarrow \omega_{\mathrm{oc}}^2=\frac{k-\theta^2 C_p}{m}.
+ * Under short circuit (q=0 only if open; for short, set V_L=0):
+   m\ddot x + k x = 0 \Rightarrow \omega_{\mathrm{sc}}^2=\frac{k}{m}.
+ * Thus the classic piezo resonance/anti-resonance split appears:
+   \kappa_{\mathrm{eff}}^2=\frac{\omega_{\mathrm{sc}}^2-\omega_{\mathrm{oc}}^2}{\omega_{\mathrm{sc}}^2} =\frac{\theta^2 C_p}{k}.
+   \boxed{\;\kappa_{\mathrm{eff}}^2=\frac{f_a^2-f_r^2}{f_a^2} \approx \frac{\theta^2 C_p}{k}\;}
+ * With finite b, R, frequency response shows:
+   * A mechanical resonance near \omega_{\mathrm{sc}} (current flows, \dot q peaks),
+   * An anti-resonance near \omega_{\mathrm{oc}} (current suppressed, V_L peaks),
+   * A coupling-induced zero/pole pair separation proportional to \kappa_{\mathrm{eff}}^2.
+   * These are exactly the signatures you already measure with impedance analyzers; now they’re tied to a unified Lagrangian.
+6) Relating to material constants (design knobs)
+ * Using standard piezo constitutive relations (1D, thickness mode):
+   T=c_E S - e\,E,\qquad D=e\,S+\varepsilon_S E,
+ * A common lumped estimate:
+   C_p=\varepsilon_S \frac{A}{t},\qquad \theta \;\approx\; e \,\frac{A}{t} \quad\Rightarrow\quad \kappa_{\mathrm{eff}}^2=\frac{\theta^2 C_p}{k} \approx \frac{e^2}{c_E\,\varepsilon_S}\;\frac{k_{\text{geom}}}{k},
+7) Hamiltonian (for control, quantization, & synthesis)
+ * Conjugate momenta:
+   p_x=\frac{\partial \mathcal{L}}{\partial \dot x}=m\dot x,\qquad p_q=\frac{\partial \mathcal{L}}{\partial \dot q}=0\;\;(\text{no electrical kinetic term}).
+ * Energy (no losses, no drives):
+   \boxed{\,H=T+V =\frac{p_x^2}{2m}+\frac{1}{2}k x^2+\frac{1}{2C_p}q^2-\theta x q.\,}
+8) How this scales to the coupled chamber (HFRT-MH4)
+ * Add additional oscillators x_2, x_3, acoustic pressure mode \delta p (or lumped \phi_p), and an RF/LC branch q_{\mathrm{LC}}. Append:
+ * Kinetic terms for each DOF,
+ * Potential terms for each stiffness/compressibility/capacitance,
+ * Bilinear couplings between domains (mechanical–electrical, electrical–acoustic, acoustic–RF), all of the generic form \theta_{xy} x y, etc.
+ * Losses via a Rayleigh that’s diagonal (to start) and then refined from measurements.
+ * You now have a single master Lagrangian from which all MH4 equations fall out by Euler–Lagrange—exactly what you asked for.
+9) Field-theory stepping stone (HFRT lattice field)
+ * Promote the lumped displacement to a continuous resonance field \Psi(\mathbf{r}, t):
+   $\boxed{; \mathcal{L}\text{field}=\int d^3 r, \Big[ \frac{1}{2}\rho(\mathbf r),\dot \Psi^2 -\frac{1}{2}c(\mathbf r),|\nabla\Psi|^2 -\frac{1}{2}\rho(\mathbf r)\omega_0^2(\mathbf r),\Psi^2 + g,\Psi,\Phi{\mathrm{EM}} + \cdots \Big], ;} $
+10) Immediate, falsifiable lab predictions
+ * Res/anti-res split:
+   * Measure f_{\mathrm{r}}, f_{\mathrm{a}} → infer \kappa_{\mathrm{eff}}^2 → compare to geometry/material estimate.
+ * Load tuning:
+   * Vary R. The anti-res peak shifts and Q changes in a way predicted by the coupled ODEs (fit for b and internal leakage).
+ * Drive transduction:
+   * Apply F_{\mathrm{ext}}(t) and measure i(t). The transfer is fully determined by \theta.
+ * Non-trivial scaling:
+   * Change area or thickness of the piezo → predicted scaling of C_p and \theta → pre-registered frequency split. This is a clean win for HFRT design logic.
+11) What you can hand to the team today
+ * The boxed \mathcal{L}, H, and E–L equations are ready to implement in Python/Matlab and to fit to your impedance sweeps.
+ * The resonance/anti-resonance formula gives a single-shot calibration of \theta.
+ * The Hamiltonian form is ready for control/estimation and, later, quantization if you go that route.
 
+--
+python
+
+# HFRT-VC1: Lagrangian-based piezo-mechanical coupled resonator
+# --------------------------------------------------------------
+# - Models: m*x¨ + b*x˙ + k*x - θ*q = F_ext,   R*q˙ + (1/Cp) q - θ*x = i_ext
+# - Output voltage: v = q/Cp - θ*x
+# - Computes |V/F|(f), sweeps R, estimates f_r & f_a, fits θ from synthetic data
+#
+# Requirements: numpy, matplotlib
+# Optional: scipy (for least_squares + find_peaks). If missing, script falls back to grid search.
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+# ------------------------------
+# Core model (frequency-domain)
+# ------------------------------
+def mech_elec_denom(omega, m, b, k, Cp, R, theta):
+    """
+    Returns complex D(ω) such that D*X = F after eliminating q.
+    From:
+      (-m ω^2 + j b ω + k) X - θ Q = F
+      (j ω R + 1/Cp) Q - θ X = 0  => Q = θ X / (j ω R + 1/Cp)
+      => D = -m ω^2 + j b ω + k - θ^2 / (j ω R + 1/Cp)
+    """
+    j = 1j
+    return (-m*omega**2 + j*b*omega + k) - (theta**2) / (j*omega*R + 1.0/Cp)
+
+def transfer_x_over_F(omega, params):
+    D = mech_elec_denom(omega, params['m'], params['b'], params['k'],
+                        params['Cp'], params['R'], params['theta'])
+    return 1.0 / D
+
+def transfer_v_over_F(omega, params):
+    """
+    v = q/Cp - θ x, with Q = θ X / (j ω R + 1/Cp)
+    """
+    j = 1j
+    X_over_F = transfer_x_over_F(omega, params)
+    denom_e = (j*omega*params['R'] + 1.0/params['Cp'])
+    Q_over_F = (params['theta'] * X_over_F) / denom_e
+    V_over_F = (Q_over_F / params['Cp']) - params['theta'] * X_over_F
+    return V_over_F
+
+def db(x):
+    return 20.0*np.log10(np.maximum(np.abs(x), 1e-16))
+
+# --------------------------------------------
+# Peak/trough estimation for fr / fa (simple)
+# --------------------------------------------
+def estimate_fr_fa(f, V_over_F_db):
+    """
+    Heuristic: identify dominant peak and trough in |V/F| dB.
+    Returns (f_trough, f_peak) ~ (resonance-ish, anti-resonance-ish).
+    Falls back to argmax/argmin if scipy isn't available.
+    """
+    try:
+        from scipy.signal import find_peaks
+        pk_idx, _ = find_peaks(V_over_F_db, prominence=3.0)
+        tr_idx, _ = find_peaks(-V_over_F_db, prominence=3.0)
+        f_peak = f[pk_idx[np.argmax(V_over_F_db[pk_idx])]] if len(pk_idx) else np.nan
+        f_trough = f[tr_idx[np.argmax(-V_over_F_db[tr_idx])]] if len(tr_idx) else np.nan
+    except Exception:
+        # Fallback: crude global extrema
+        f_peak = f[np.argmax(V_over_F_db)]
+        f_trough = f[np.argmin(V_over_F_db)]
+    return f_trough, f_peak
+
+# --------------------------------
+# Theta fitting (with fallback)
+# --------------------------------
+def fit_theta_from_mag(f, mag_meas, params, R_fit=1e6, theta0=0.3, theta_bounds=(0.0, 5.0)):
+    """
+    Fit theta by minimizing log-magnitude error between model and measured.
+    If SciPy is unavailable, do a coarse grid search.
+    """
+    omega = 2*np.pi*f
+    def model_mag(theta):
+        p = params.copy()
+        p['R'] = R_fit
+        p['theta'] = theta
+        VoF = transfer_v_over_F(omega, p)
+        return np.abs(VoF)
+
+    # Try SciPy first
+    try:
+        from scipy.optimize import least_squares
+        def residual(theta_arr):
+            m = model_mag(theta_arr[0])
+            return np.log(m + 1e-16) - np.log(mag_meas + 1e-16)
+        res = least_squares(residual, x0=[theta0], bounds=theta_bounds, max_nfev=500)
+        return float(res.x[0])
+    except Exception:
+        # Fallback: grid search
+        thetas = np.linspace(theta_bounds[0], theta_bounds[1], 101)
+        errs = []
+        for th in thetas:
+            m = model_mag(th)
+            err = np.mean((np.log(m+1e-16)-np.log(mag_meas+1e-16))**2)
+            errs.append(err)
+        return float(thetas[int(np.argmin(errs))])
+
+# --------------------------
+# Example usage / demo
+# --------------------------
+if __name__ == "__main__":
+    # Baseline parameters (adjust to your hardware)
+    params = dict(
+        m=0.02,      # kg
+        b=0.5,       # N*s/m
+        k=1.0e4,     # N/m
+        Cp=1.0e-6,   # F
+        R=1e6,       # Ohm
+        theta=0.6    # electromechanical coupling
+    )
+
+    # Frequency axis
+    f = np.linspace(10, 5000, 4000)  # Hz
+    w = 2*np.pi*f
+
+    # 1) Baseline transfer (Force -> Voltage)
+    VoF = transfer_v_over_F(w, params)
+    plt.figure(figsize=(8,5))
+    plt.plot(f, db(VoF))
+    plt.xlabel('Frequency [Hz]')
+    plt.ylabel('|V/F| [dB]')
+    plt.title('HFRT-VC1: Force-to-Voltage Transfer (baseline)')
+    plt.grid(True)
+    plt.tight_layout()
+    plt.show()
+
+    # 2) R sweep to show load dependence (anti-resonance behavior)
+    Rs = [1e3, 1e4, 1e5, 1e6, 1e8]
+    plt.figure(figsize=(8,5))
+    for R in Rs:
+        p = params.copy()
+        p['R'] = R
+        VoF_R = transfer_v_over_F(w, p)
+        plt.plot(f, db(VoF_R), label=f'R={R:.0e} Ω')
+    plt.xlabel('Frequency [Hz]')
+    plt.ylabel('|V/F| [dB]')
+    plt.title('Force-to-Voltage vs Load Resistance (R sweep)')
+    plt.legend()
+    plt.grid(True)
+    plt.tight_layout()
+    plt.show()
+
+    # 3) Estimate fr/fa for two limiting cases (short-ish, open-ish)
+    p_sc = params.copy(); p_sc['R'] = 1e3
+    p_oc = params.copy(); p_oc['R'] = 1e8
+    VoF_sc = transfer_v_over_F(w, p_sc)
+    VoF_oc = transfer_v_over_F(w, p_oc)
+    fr_sc, fa_sc = estimate_fr_fa(f, db(VoF_sc))
+    fr_oc, fa_oc = estimate_fr_fa(f, db(VoF_oc))
+
+    print("Estimated (short-ish, R=1e3 Ω):  f_res ~ %.1f Hz, f_anti ~ %.1f Hz" % (fr_sc, fa_sc))
+    print("Estimated (open-ish,  R=1e8 Ω):  f_res ~ %.1f Hz, f_anti ~ %.1f Hz" % (fr_oc, fa_oc))
+
+    # 4) Synthetic measurement and theta fit
+    # Generate synthetic mag data at R_fit with some noise
+    R_fit = 1e6
+    p_true = params.copy(); p_true['R'] = R_fit
+    VoF_true = transfer_v_over_F(w, p_true)
+    mag_meas = np.abs(VoF_true) * (1.0 + 0.03*np.random.randn(len(w)))  # 3% noise
+
+    theta_est = fit_theta_from_mag(f, mag_meas, params, R_fit=R_fit, theta0=0.3, theta_bounds=(0.0, 5.0))
+    print("True theta = %.3f,  Estimated theta = %.3f" % (params['theta'], theta_est))
+
+    # Plot fit quality
+    p_fit = params.copy(); p_fit['R'] = R_fit; p_fit['theta'] = theta_est
+    plt.figure(figsize=(8,5))
+    plt.plot(f, 20*np.log10(np.abs(transfer_v_over_F(w, p_true))), label='True')
+    plt.plot(f, 20*np.log10(np.abs(transfer_v_over_F(w, p_fit))), label=f'Fit (theta={theta_est:.3f})', linestyle='--')
+    plt.xlabel('Frequency [Hz]')
+    plt.ylabel('|V/F| [dB]')
+    plt.title('Theta Fit from Synthetic Magnitude Data')
+    plt.legend()
+    plt.grid(True)
+    plt.tight_layout()
+    plt.show()
+
+    # 5) Quick one-liner for kappa_eff^2 ≈ (fa^2 - fr^2)/fa^2 using open/short estimates
+    if np.isfinite(fr_sc) and np.isfinite(fa_oc) and fa_oc > 0:
+        kappa_eff_sq = (fa_oc**2 - fr_sc**2) / (fa_oc**2)
+        print("Approx. kappa_eff^2 ≈ (fa^2 - fr^2)/fa^2 = %.5f" % kappa_eff_sq)
+--
+
+%%
+
+----
 
 ---
 
